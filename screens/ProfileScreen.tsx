@@ -68,13 +68,14 @@ export default function ProfileScreen() {
         <View style={styles.pill}><Text style={styles.pillText}>퀘스트 완료 12개</Text></View>
         <View style={styles.pill}><Text style={styles.pillText}>목표 달성률 68%</Text></View>
       </View>
+
     </ScrollView>
   );
 }
 
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: '#FAF8F5' },
-  content: { alignItems: 'center', paddingTop: 48, paddingHorizontal: 20, paddingBottom: 40 },
+  content: { alignItems: 'center', paddingTop: 144, paddingHorizontal: 20, paddingBottom: 40 },
   nickname: { fontSize: 22, fontWeight: 'bold', color: '#1E1E1E', textAlign: 'center', marginBottom: 6 },
   label: { fontSize: 11, color: '#AAAAAA', textAlign: 'center', marginBottom: 6 },
   value: { fontSize: 13, color: '#555555', textAlign: 'center', marginBottom: 6 },
